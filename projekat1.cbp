@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projekat1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projekat1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projekat1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="igrac.hpp" />
+		<Unit filename="isplata.hpp" />
+		<Unit filename="korisnik.hpp" />
+		<Unit filename="liga.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menadzer.hpp" />
+		<Unit filename="sport.hpp" />
+		<Unit filename="tiket.hpp" />
+		<Unit filename="tim.hpp" />
+		<Unit filename="uplata.hpp" />
+		<Unit filename="utakmica.hpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
