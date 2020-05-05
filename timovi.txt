@@ -1,8 +1,8 @@
-Crveni, Srbija, Pozarevac
-Plavi, Liman, Liman 3
-Beli, Francuska, Verden
-Crni, Albanija, Pristina
-Zuti, DRSrbija, Vranje
-Ljubicasti, Italija, Ljubljana
-Zelena, Jugoslavija, Beograd
-Braon, Nigerija, Abeokuta
+Crveni, Srbija, Crvenka
+Plavi, Srbija, Novi Sad
+Beli, Srbija, Smederevo
+Crni, Srbija, Pristina
+Zuti, Srbija, Vranje
+Ljubicasti, Srbija, Nis
+Zelena, Srbija, Beograd
+Braon, Srbija, Sid

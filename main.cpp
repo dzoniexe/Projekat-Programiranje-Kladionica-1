@@ -20,7 +20,7 @@ using namespace std;
 void citajTxt(string filename)
 {
     string linija;
-    ifstream file (filename);
+    ofstream file (filename);
     if (file.is_open())
     {
         while ( getline (file,linija) )
