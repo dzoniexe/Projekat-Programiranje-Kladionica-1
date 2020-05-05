@@ -1,2 +1,2 @@
 # Projekat-Programiranje-Kladionica-1
-deskripcija
+Popravljam ceo projekat za sledeći rok
