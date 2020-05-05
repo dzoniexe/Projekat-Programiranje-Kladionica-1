@@ -1,6 +1,6 @@
 #ifndef TIM_HPP_INCLUDED
 #define TIM_HPP_INCLUDED
-
+#include "fstream"
 #include "sport.hpp"
 #include "igrac.hpp"
 #include "menadzer.hpp"
@@ -32,5 +32,30 @@ public:
         ratingAway = tratingAway;
     }
 };
+
+void pisiText(string timovi, string tekst)
+{
+    ofstream fajl;
+    fajl.open (timovi);
+    fajl << tekst << endl;
+    fajl.close();
+}
+
+void citajText(string filename)
+{
+    string linija;
+    ifstream fajl (filename);
+    if (fajl.is_open())
+    {
+        while ( getline (fajl,linija) )
+        {
+           cout << linija << '\n';
+        }
+        file.close();
+    }
+
+    else
+        cout << "Nece";
+}
 
 #endif // TIM_HPP_INCLUDED
