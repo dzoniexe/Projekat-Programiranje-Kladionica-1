@@ -1,7 +1,6 @@
 #ifndef UPLATA_HPP_INCLUDED
 #define UPLATA_HPP_INCLUDED
 
-#include "tiket.hpp"
 #include "korisnik.hpp"
 
 using namespace std;
@@ -25,7 +24,7 @@ public:
         kolicina2 = kolicina;
     }
     int setKorisnik(Korisnik korisnik2){
-        korisnik2 = korisnik;
+        korisnik2 = k;
     }
     void dodajPare()
     {

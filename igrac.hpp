@@ -12,11 +12,11 @@
 #include "korisnik.hpp"
 #include "liga.hpp"
 
-enum sport {fudbal, kosarka, odbojka, rukomet};
+
 
 using namespace std;
 
-class Igrac
+/*class Igrac
 {
 protected:
     string ime;
@@ -43,6 +43,6 @@ public:
     {
 
     }
-};
+};*/
 
 #endif // IGRAC_HPP_INCLUDED

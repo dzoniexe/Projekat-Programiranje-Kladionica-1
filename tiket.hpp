@@ -2,6 +2,8 @@
 #define TIKET_HPP_INCLUDED
 
 #include "utakmica.hpp"
+#include "uplata.hpp"
+#include "isplata.hpp"
 
 using namespace std;
 
@@ -12,8 +14,8 @@ private:
     int khome;
     int kaway;
     int kdraw;
-    Uplata u;
-    Isplata i;
+    Uplata uplataa;
+    Isplata isplataaaaa;
 public:
 };
 

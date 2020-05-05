@@ -1,8 +1,9 @@
 #ifndef ISPLATA_HPP_INCLUDED
 #define ISPLATA_HPP_INCLUDED
-#include "Tiket.hpp"
 
-enum sport {fudbal, kosarka, odbojka, rukomet};
+#include "korisnik.hpp"
+
+
 
 
 using namespace std;
@@ -14,7 +15,8 @@ private:
     Korisnik k;
 public:
 
-    Isplata (int k1, string kime, string kprezime, int kgodine, int kstatus):k(kime, kprezime, kgodine, kstatus){
+    Isplata (int k1, string kime, string kprezime, int kgodine, int kstatus):k(kime, kprezime, kgodine, kstatus)
+    {
         kolicina = k1;
     }
 
@@ -24,13 +26,15 @@ public:
     Korisnik getK()const{
         return k;
     }
-    int setKolicina(int kolicina1){
+    int setKolicina(int kolicina1)
+    {
         kolicina1 = kolicina;
     }
-    int setKorisnik(Korisnik korisnik1){
-        korisnik1 = korisnik;
+    int setKorisnik(Korisnik korisnik1)
+    {
+        korisnik1 = k;
     }
-    void dodajPare()
+    void podigniPare()
     {
         int a=k.getStatus()+kolicina;
         k.setStatus(a);

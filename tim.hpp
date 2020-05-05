@@ -17,12 +17,12 @@ private:
     string ime;
     string drzava;
     string mesto;
-    Igrac b;
+  //  Igrac b[100];
     Menadzer m;
     int ratingHome;
     int ratingAway;
 public:
-    Tim(sport ts, string time, string tdrzava, string tmesto, string iime, string iprezime, int igodine, string idrzava, string mime, string mprezime, int mgodine, string mdrzava, int tratingHome, int tratingAway):Igrac(iime, iprezime, igodine, idrzava), Menadzer(mime, mprezime, mgodine, mdrzava)
+    Tim(sport ts, string time, string tdrzava, string tmesto, /*string iime, string iprezime, int igodine, string idrzava,*/ string mime, string mprezime, int mgodine, string mdrzava, int tratingHome, int tratingAway):/*b(iime, iprezime, igodine, idrzava)*/ m(mime, mprezime, mgodine, mdrzava)
     {
         s = ts;
         ime = time;
