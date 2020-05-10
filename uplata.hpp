@@ -10,7 +10,7 @@ private:
     int kolicina;
     Korisnik k;
 public:
-    Uplata (int k1, string kime, string kprezime, int kgodine, int kstatus):k(kime, kprezime, kgodine, kstatus){
+    Uplata (int k1, string kime, string kprezime, string kusername, int kgodine, int kstatus):k(kime, kprezime, kusername, kgodine, kstatus){
         kolicina = k1;
     }
 

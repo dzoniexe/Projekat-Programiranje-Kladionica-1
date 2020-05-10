@@ -16,7 +16,7 @@
 
 using namespace std;
 
-/*class Igrac
+class Igrac
 {
 protected:
     string ime;
@@ -31,18 +31,19 @@ public:
         godine = igodine;
         drzava = idrzava;
     }
+    friend ostream& operator<<(ostream& izlaz, Igrac& i);
 
 };
 
-class Klasa : public Igrac
-{
-protected:
-    sport s;
-public:
-    Klasa(string iime, string iprezime, int igodine, string idrzava, sport s ) : Igrac(iime, iprezime, igodine, idrzava)
-    {
-
-    }
-};*/
+//class Klasa : public Igrac
+//{
+//protected:
+//    sport s;
+//public:
+//    Klasa(string iime, string iprezime, int igodine, string idrzava, sport s ) : Igrac(iime, iprezime, igodine, idrzava)
+ //   {
+//
+  //  }
+//};
 
 #endif // IGRAC_HPP_INCLUDED
