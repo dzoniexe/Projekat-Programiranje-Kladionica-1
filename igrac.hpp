@@ -19,13 +19,15 @@ using namespace std;
 class Igrac
 {
 protected:
+    int id;
     string ime;
     string prezime;
     int godine;
     string drzava;
 public:
-    Igrac(string iime, string iprezime, int igodine, string idrzava)
+    Igrac(int iid, string iime, string iprezime, int igodine, string idrzava)
     {
+        id = iid;
         ime = iime;
         prezime = iprezime;
         godine = igodine;

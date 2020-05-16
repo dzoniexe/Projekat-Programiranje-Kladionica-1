@@ -3,9 +3,6 @@
 
 #include "korisnik.hpp"
 
-
-
-
 using namespace std;
 
 class Isplata

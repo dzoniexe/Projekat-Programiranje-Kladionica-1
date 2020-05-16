@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589135495 source:c:\users\korisnik\documents\github\projekat1\main.cpp
+1589651960 source:c:\users\korisnik\documents\github\projekat1\main.cpp
 	<iostream>
 	"sport.hpp"
 	"igrac.hpp"
@@ -20,14 +20,15 @@
 	"tim.hpp"
 	"menadzer.hpp"
 
-1589134525 c:\users\korisnik\documents\github\projekat1\tim.hpp
+1589652315 c:\users\korisnik\documents\github\projekat1\tim.hpp
 	"fstream"
 	"sport.hpp"
 	"igrac.hpp"
 	"menadzer.hpp"
 	"liga.hpp"
+	<vector>
 
-1589134773 c:\users\korisnik\documents\github\projekat1\igrac.hpp
+1589651933 c:\users\korisnik\documents\github\projekat1\igrac.hpp
 	"sport.hpp"
 	"igrac.hpp"
 	"menadzer.hpp"
@@ -39,14 +40,14 @@
 	"korisnik.hpp"
 	"liga.hpp"
 
-1589136348 c:\users\korisnik\documents\github\projekat1\menadzer.hpp
+1589650783 c:\users\korisnik\documents\github\projekat1\menadzer.hpp
 	"sport.hpp"
 	"tim.hpp"
 
-1589134978 c:\users\korisnik\documents\github\projekat1\isplata.hpp
+1589648978 c:\users\korisnik\documents\github\projekat1\isplata.hpp
 	"korisnik.hpp"
 
-1589136348 c:\users\korisnik\documents\github\projekat1\korisnik.hpp
+1589137744 c:\users\korisnik\documents\github\projekat1\korisnik.hpp
 
 1589135095 c:\users\korisnik\documents\github\projekat1\uplata.hpp
 	"korisnik.hpp"

@@ -18,18 +18,18 @@
 using namespace std;
 
     ostream& operator<<(ostream& izlaz, Menadzer& m){
-        izlaz<<"Ispis Menadzera: "<<endl<<"Ime: "<<m.ime<<endl;
-        cout<<"Prezime: "<<m.prezime<<endl;
-        cout<<"Godine: "<<m.godine<<endl;
-        cout<<"Drzava: "<<m.drzava<<endl;
+        izlaz<<"Ispis Menadzera: "<<endl<<"Ime: "<<m.name<<endl;
+        cout<<"Prezime: "<<m.surname<<endl;
+        cout<<"Godine: "<<m.age<<endl;
+        cout<<"Drzava: "<<m.country<<endl;
         return izlaz;
     }
 
     ostream& operator<<(ostream& izlaz, Igrac& i){
-        izlaz<<"Ispis Igraca: "<<endl<<"Ime: "<<i.ime<<endl;
-        cout<<"Prezime: "<<i.prezime<<endl;
-        cout<<"Godine: "<<i.godine<<endl;
-        cout<<"Drzava: "<<i.drzava<<endl;
+        izlaz<<"Ispis Igraca: "<<endl<<"Broj dresa: "<<i.id<<endl<<"Ime: "<<i.ime<<endl;
+        izlaz<<"Prezime: "<<i.prezime<<endl;
+        izlaz<<"Godine: "<<i.godine<<endl;
+        izlaz<<"Drzava: "<<i.drzava<<endl;
         return izlaz;
     }
 
@@ -51,7 +51,7 @@ int main()
     // Nisam siguran da li sve dobro radi zbog kompajlera, ali bi trebalo da je u redu
     Menadzer m("Jose" ," Mourinho", 57, "Portugal" );
     cout<<m<<endl;
-    Igrac i("Gerard", "Pique", 33, "Spain");
+    Igrac i(13, "Gerard", "Pique", 33, "Spain");
     cout<<i<<endl;
     Korisnik k("Nikola", "Pistalovic", "DzoniMaisterNoobSlejer6969ProGamer", 18, 13000);
     cout<<k<<endl;

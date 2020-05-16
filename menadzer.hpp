@@ -10,18 +10,18 @@ using namespace std;
 class Menadzer
 {
 private:
-    string ime;
-    string prezime;
-    int godine;
-    string drzava;
+    string name;
+    string surname;
+    int age;
+    string country;
     static int brojMenadzera;
 public:
     Menadzer(string mime, string mprezime, int mgodine, string mdrzava)
     {
-        ime = mime;
-        prezime = mprezime;
-        godine = mgodine;
-        drzava = mdrzava;
+        name = mime;
+        surname = mprezime;
+        age = mgodine;
+        country = mdrzava;
 
     }
 
