@@ -35,6 +35,11 @@ public:
         ratingAway = tratingAway;
     }
 
+
+
+
+
+
     void dodaj(Igrac* i){
         b.push_back(i);
     }
@@ -43,14 +48,41 @@ public:
         cout<<"Lista Igraca: "<<endl;
 
         for (auto it=b.begin(); it<b.end(); it++){
-            (*it)->statb();
+            (*it)->ispisss();
 
         }
     }
 
+    void pretrazi(int ajdi)
+    {
+        bool pronadjen = false;
+        for (auto it=b.begin(); it<b.end(); it++)
+        {
+            if (ajdi==(*it)->getId())
+            {
+                (*it)->ispisss();
+                pronadjen=true;
+            }
+        }
+        if (!pronadjen)
+        {
+            cout<<"Nema tog igraca!!!"<<endl;
+        }
+    }
 
+    bool izbaci(Igrac& i)
+    {
+        for (auto it=b.begin(); it<b.end(); it++)
+        {
+            if (i.getIme()==(*it)->getIme() && i.getPrezime()==(*it)->getPrezime())
+            {
+                b.erase(it);
+                return true;
+            }
+        }
+        return false;
 
-
+    }
 
 
 

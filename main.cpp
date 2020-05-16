@@ -60,6 +60,25 @@ int main()
     Korisnik korisn;
     int f = korisn.getKor();
     cout<<f<<endl;
+
+
+    Igrac igrac1(12, "Dzoni", "Dzoni", 16, "Srbija");
+    Igrac igrac2(13, "Teo", "Teo", 16, "Srbija");
+    Igrac igrac3(14, "Srdjan", "Srdjan", 16, "Srbija");
+
+
+
+    Tim q(fudbal, "Vojvodina", "Srbija", "Novi Sad", "Milo", "Djukanovic", 60, "Srbija", 99, 98);
+    q.dodaj(&igrac1);
+    q.dodaj(&igrac2);
+    q.dodaj(&igrac3);
+    q.ispisiIgrac();
+    q.pretrazi(12);
+    q.izbaci(igrac2);
+
+
+
+
     // Srediću projekat za sledeći rok
     return 0;
 }

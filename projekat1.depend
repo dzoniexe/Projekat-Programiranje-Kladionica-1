@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589651960 source:c:\users\korisnik\documents\github\projekat1\main.cpp
+1589664028 source:c:\users\korisnik\documents\github\projekat1\main.cpp
 	<iostream>
 	"sport.hpp"
 	"igrac.hpp"
@@ -20,7 +20,7 @@
 	"tim.hpp"
 	"menadzer.hpp"
 
-1589652315 c:\users\korisnik\documents\github\projekat1\tim.hpp
+1589663657 c:\users\korisnik\documents\github\projekat1\tim.hpp
 	"fstream"
 	"sport.hpp"
 	"igrac.hpp"
@@ -28,7 +28,7 @@
 	"liga.hpp"
 	<vector>
 
-1589651933 c:\users\korisnik\documents\github\projekat1\igrac.hpp
+1589663381 c:\users\korisnik\documents\github\projekat1\igrac.hpp
 	"sport.hpp"
 	"igrac.hpp"
 	"menadzer.hpp"
